@@ -20244,11 +20244,11 @@ disabled look for disabled choices in the results dropdown
 }
 
 .quem-somos-texto{
-	text-align: center;
+	text-align: justify;
 	margin: 20px 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
 
 	.quem-somos{
 	
@@ -20293,7 +20293,7 @@ disabled look for disabled choices in the results dropdown
 	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 724px) {
 
 	.f-azul{
 	color: #004aad;
