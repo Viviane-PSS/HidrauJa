@@ -8,14 +8,19 @@
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500">
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+
+    <!-- Javascript-->
+    <script src="js/core.min.js" defer="defer"></script>
+    <script src="js/script.js" defer="defer"></script>
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" loading="lazy" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container"><span></span><span></span><span></span><span></span>
@@ -37,7 +42,7 @@
                     <!-- RD Navbar Toggle-->
                     <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/Hidrau Ja 1-1.png" alt="" width="223" height="50"/></a></div>
+                    <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/Hidrau Ja 3-1.png"  loading="lazy" alt="" width="223" height="50"/></a></div>
                   </div>
                   <div class="rd-navbar-main-element">
                     <div class="rd-navbar-nav-wrap">
@@ -45,18 +50,16 @@
                       <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
                         <ul class="list-inline rd-navbar-share-list">
                           <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="#"></a></li>
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li>
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
+                          <!-- <li class="rd-navbar-share-list-item"><a class="fa-brands fa-square-x-twitter" href="#"></a></li> -->
+                          <li class="rd-navbar-share-list-item"><a class="fa-brands fa-whatsapp" href="#"></a></li>
                           <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li>
                         </ul>
                       </div>
                       <ul class="rd-navbar-nav">
                         <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Quem Somos</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">Produtos</a></li>
-                        <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="#team">Team</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#news">News</a></li> -->
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Contato</a></li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="#quem-somos">Quem Somos</a></li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="#produtos">Produtos</a></li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="#contato">Contato</a></li>
                       </ul>
                     </div>
                   </div>
@@ -67,16 +70,16 @@
         </header>
 
         <!-- Swiper-->
-        <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true" data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
+        <section id="home" class="section swiper-container swiper-slider swiper-slider-classic" data-loop="false" data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
           <div class="swiper-wrapper text-center">
-            <div class="swiper-slide" data-slide-bg="images/slider-1-slide-2-1770x742.jpg">
+            <div class="swiper-slide" data-slide-bg="images/Capa-3.jpg">
               <div class="swiper-slide-caption section-md">
-                <!-- <div class="container">
-                  <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Hidrau Ja</h1>
-                  <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Consolidada no mercado há mais de 25 anos, sendo
-especialista na fabricação de componentes hidráulicos. Produz conexões, flanges, terminais para mangueiras, adaptadores, flanges quadrados e diversos itens especiais, todos conforme as normas DIN, SAE, ISO e de acordo com as necessidades específicas de cada cliente.
-</p><a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Entre em contato</a>
-                </div> -->
+                <div class="container">
+                  <h1 data-caption-animate="fadeInLeft f-azul" data-caption-delay="0">Hidrau Ja</h1>
+                  <p class="text-width-large frase-azul" data-caption-animate="fadeInRight" data-caption-delay="100">
+                    Indústria de Conexões Hidráulicas e  Industriais.
+ </p><!--<a class="button button-primary button-ujarak" href="#contato" data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Entre em contato</a> -->
+                </div>
               </div>
             </div>
             <!-- <div class="swiper-slide" data-slide-bg="images/slider-1-slide-4-1770x742.jpg">
@@ -106,14 +109,18 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
 
       </div>
 
-      <section>
-        <div>
+      <section id="quem-somos" class="section section-sm bg-default">
+        <div class="quem-somos-container container">
+          
           <h2>Quem Somos</h2>
-          <p>Consolidada no mercado há mais de 25 anos, sendo especialista na fabricação de componentes hidráulicos. Produz conexões, flanges, terminais para mangueiras, adaptadores, flanges quadrados e diversos itens especiais, todos conforme as normas DIN, SAE, ISO e de acordo com as necessidades específicas de cada cliente.
+          <p class="quem-somos-texto">Consolidada no mercado há mais de 25 anos, sendo especialista na fabricação de componentes hidráulicos. Produz conexões, flanges, terminais para mangueiras, adaptadores, flanges quadrados e diversos itens especiais, todos conforme as normas DIN, SAE, ISO e de acordo com as necessidades específicas de cada cliente.
           </p>
-        </div>
-        <div>
+        
+        <!-- <div class="quem-somos-2">
 
+          <img src="images/Img-quem-somos.jpg" alt="">
+
+        </div> -->
         </div>
       </section>
 
@@ -121,7 +128,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
       <section class="section section-sm bg-default">
         <div class="container">
           <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
-            <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href="#">
+            <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img"  loading="lazy" href="#">
                 <div id="particles-js"></div><span class="counter">25</span></a></div>
             <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
               <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
@@ -163,10 +170,10 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             </div> -->
             <div class="col-lg-6 col-xl-12 align-self-center">
               <div class="row row-30 justify-content-center">
-                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic" href="#"><img src="images/img01.jpg" alt="" width="270" height="117"/></a></div>
-                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="images/img01.jpg" alt="" width="270" height="117"/></a></div>
-                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="images/img01.jpg" alt="" width="270" height="117"/></a></div>
-                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="images/img01.jpg" alt="" width="270" height="117"/></a></div>
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic" href="#"><img src="images/img01.jpg"  loading="lazy" alt="" width="270" height="117"/></a></div>
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="images/img 04.jpg"  loading="lazy" alt="" width="270" height="117"/></a></div>
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="images/img 05.jpg"  loading="lazy" alt="" width="270" height="117"/></a></div>
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="images/img 06.jpg"  loading="lazy" alt="" width="270" height="117"/></a></div>
               </div>
             </div>
           </div>
@@ -235,13 +242,13 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
         </div>
       </section> -->
 
-      <!-- Latest Projects-->
-      <section class="section section-sm section-fluid bg-default text-center" id="projects">
+      <!-- Lista de produtos-->
+      <section id="produtos" class="section section-sm section-fluid bg-default text-center" id="projects">
         <div class="container-fluid">
           <h2 class="wow fadeInLeft">Produtos</h2>
           <!-- <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">Conheça nossos produtos</p> -->
           <div class="isotope-filters isotope-filters-horizontal">
-            <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true" data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter</button>
+            <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true" data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filtro</button>
             <ul class="isotope-filters-list" id="isotope-3">
               <li><a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery">Todos</a></li>
               <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">Flanges</a></li>
@@ -254,10 +261,10 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure"><img src="images/flange1.jpg" alt="" width="420" height="350"/>
+                <div class="thumbnail-classic-figure"><img src="images/flange1.jpg"  loading="lazy" alt="" width="300" height="240"/>
                 </div>
                 <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/flange1.jpg" data-lightgallery="item"><img src="images/flange1.jpg" alt="" width="420" height="350"/></a>
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/flange1.jpg" data-lightgallery="item"><img src="images/flange1.jpg"  loading="lazy" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Flange</a></h5>
                   </div>
                   <!-- <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p> -->
@@ -267,13 +274,26 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1" data-wow-delay=".1s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure"><img src="images/flange 2.jpg" alt="" width="420" height="350"/>
+                <div class="thumbnail-classic-figure"><img src="images/flange 2.jpg" alt="" width="300" height="240"/>
                 </div>
                 <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/flange 2.jpg" data-lightgallery="item"><img src="images/flange 2.jpg" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Mobile Finance</a></h5>
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/flange 2.jpg" data-lightgallery="item"><img src="images/flange 2.jpg" alt="" width="300" height="240"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">Flange</a></h5>
                   </div>
                   <!-- <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p> -->
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 4" data-wow-delay=".1s">
+              <!-- Thumbnail Classi xc-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/Terminal01q.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/Terminal01.jpg" data-lightgallery="item"><img src="images/Terminal01.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">Terminal</a></h5>
+                  </div>
+                 
                 </div>
               </article>
             </div>
@@ -284,7 +304,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/Adaptador2.jpg" data-lightgallery="item"><img src="images/Adaptador2.jpg" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Q-Manage</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Adaptador</a></h5>
                   </div>
                   <!-- <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p> -->
                 </div>
@@ -297,7 +317,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/Conexão1.jpg" data-lightgallery="item"><img src="images/Conexão1.jpg" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">WeatherCast</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Conexão</a></h5>
                   </div>
                   <!-- <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p> -->
                 </div>
@@ -310,7 +330,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/Conexão2.jpg" data-lightgallery="item"><img src="images/Conexão2.jpg" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Home Calendar</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Conexão</a></h5>
                   </div>
                   <!-- <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p> -->
                 </div>
@@ -345,24 +365,24 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2" data-wow-delay=".3s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure"><img src="images/Adaptador3.jpg" alt="" width="420" height="350"/>
+                <div class="thumbnail-classic-figure"><img src="images/Adaptador3.jpg" alt="" width="300" height="240"/>
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/Adaptador3.jpg" data-lightgallery="item"><img src="images/Adaptador3.jpg" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">WiseMoney</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Adaptador</a></h5>
                   </div>
                   <!-- <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p> -->
                 </div>
               </article>
             </div>
-             <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2" data-wow-delay=".3s">
+             <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3" data-wow-delay=".3s">
               <!-- Thumbnail Classic-->
               <article class="thumbnail thumbnail-classic thumbnail-md">
                 <div class="thumbnail-classic-figure"><img src="images/Conexão3.jpg" alt="" width="420" height="350"/>
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/Conexão3.jpg" data-lightgallery="item"><img src="images/Conexão3.jpg" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">WiseMoney</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Conexão</a></h5>
                   </div>
                   <!-- <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p> -->
                 </div>
@@ -373,12 +393,12 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
       </section>
 
       <!-- Meet The Team-->
-      <section class="section section-sm section-fluid bg-default" id="team">
+      <!-- <section class="section section-sm section-fluid bg-default" id="team">
         <div class="container-fluid">
           <h2>Meet The Team</h2>
           <div class="row row-sm row-30 justify-content-center">
             <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight">
-              <!-- Team Classic-->
+              
               <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-11-420x424.jpg" alt="" width="420" height="424"/></a>
                 <div class="team-classic-caption">
                   <h4 class="team-classic-name"><a href="#">Ryan Wilson</a></h4>
@@ -387,7 +407,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
               </article>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".1s">
-              <!-- Team Classic-->
+              
               <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-12-420x424.jpg" alt="" width="420" height="424"/></a>
                 <div class="team-classic-caption">
                   <h4 class="team-classic-name"><a href="#">Jill Peterson</a></h4>
@@ -396,7 +416,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
               </article>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
-              <!-- Team Classic-->
+              
               <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-13-420x424.jpg" alt="" width="420" height="424"/></a>
                 <div class="team-classic-caption">
                   <h4 class="team-classic-name"><a href="#">Sam Robinson</a></h4>
@@ -405,7 +425,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
               </article>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".3s">
-              <!-- Team Classic-->
+              
               <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-14-420x424.jpg" alt="" width="420" height="424"/></a>
                 <div class="team-classic-caption">
                   <h4 class="team-classic-name"><a href="#">Mary Lee</a></h4>
@@ -415,24 +435,24 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- You dream — we embody-->
-      <section class="section section-sm bg-default text-md-left">
+      <!-- <section class="section section-sm bg-default text-md-left">
         <div class="container">
           <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
             <div class="col-lg-6 col-xl-5 wow fadeInLeft">
               <h2>Get More With Us</h2>
-              <!-- Bootstrap tabs-->
+              
               <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6">
-                <!-- Nav tabs-->
+                
                 <ul class="nav nav-tabs">
                   <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active" href="#tabs-6-1" data-toggle="tab">01</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2" data-toggle="tab">02</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3" data-toggle="tab">03</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">04</a></li>
                 </ul>
-                <!-- Tab panes-->
+                
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-6-1">
                     <h5 class="font-weight-normal">FREE APPS</h5>
@@ -462,12 +482,12 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- What people Say-->
       <section class="section section-sm section-bottom-70 section-fluid bg-default">
         <div class="container-fluid">
-          <h2>What people Say</h2>
+          <h2>O que as pessoas dizem</h2>
           <div class="row row-50 row-sm">
             <div class="col-md-6 col-xl-4 wow fadeInRight">
               <!-- Quote Modern-->
@@ -480,7 +500,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                   </div>
                 </div>
                 <div class="quote-modern-text">
-                  <p class="q">RatherApp offers a high caliber of resources skilled in Microsoft Azure .NET, mobile and Quality Assurance. They became our true business partners over the past three years.</p>
+                  <p class="q">Hidrau Ja offers a high caliber of resources skilled in Microsoft Azure .NET, mobile and Quality Assurance. They became our true business partners over the past three years.</p>
                 </div>
               </article>
             </div>
@@ -495,7 +515,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                   </div>
                 </div>
                 <div class="quote-modern-text">
-                  <p class="q">RatherApp powered us with a competent team to develop products for banking services. The team has been delivering results within budget and time, which is amazing.</p>
+                  <p class="q">Hidrau Ja powered us with a competent team to develop products for banking services. The team has been delivering results within budget and time, which is amazing.</p>
                 </div>
               </article>
             </div>
@@ -510,7 +530,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                   </div>
                 </div>
                 <div class="quote-modern-text">
-                  <p class="q">RatherApp is a highly skilled and uniquely capable firm with multitudes of talent on-board. We have collaborated on a number of diverse projects that have been a great success.</p>
+                  <p class="q">Hidrau Ja is a highly skilled and uniquely capable firm with multitudes of talent on-board. We have collaborated on a number of diverse projects that have been a great success.</p>
                 </div>
               </article>
             </div>
@@ -519,7 +539,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
       </section>
 
       <!-- Pricing-->
-      <section class="section section-sm section-bottom-70 section-fluid bg-default">
+      <!-- <section class="section section-sm section-bottom-70 section-fluid bg-default">
         <div class="container">
           <h2>Pricing</h2>
           <div class="row row-30 justify-content-center">
@@ -586,7 +606,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Latest blog posts-->
       <!-- <section class="section section-sm bg-default" id="news">
@@ -660,7 +680,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
       </section> -->
 
       <!-- Contact information-->
-      <section class="section section-sm bg-default">
+      <section id="contato" class="contato section section-sm bg-default">
         <div class="container">
           <div class="row row-30 justify-content-center">
             <div class="col-sm-8 col-md-6 col-lg-4">
@@ -668,8 +688,8 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                 <div class="box-contacts-body">
                   <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">(31)(31) 3511-0145 </a></p>
-                  <!-- <p class="box-contacts-link"><a href="tel:#">+1 323-888-4554</a></p> -->
+                  <p class="box-contacts-link"><a href="tel:#">(31) 3511-0145 </a></p>
+                  <p class="box-contacts-link"><a href="tel:#">(31) 99115-0828</a></p>
                 </div>
               </article>
             </div>
@@ -678,7 +698,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                 <div class="box-contacts-body">
                   <div class="box-contacts-icon fl-bigmug-line-up104"></div>
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="#">R. Angicos, 162 - Santo Antonio, Betim - MG, 32684-075</a></p>
+                  <p class="box-contacts-link">R. Angicos, 162 - Santo Antonio, Betim - MG, 32684-075</p>
                 </div>
               </article>
             </div>
@@ -687,8 +707,8 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                 <div class="box-contacts-body">
                   <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="mailto:#">mail@gmail.com</a></p>
-                  <p class="box-contacts-link"><a href="mailto:#">vendas@gmail.com</a></p>
+                  <!-- <p class="box-contacts-link"><a href="mailto:#">mail@gmail.com</a></p> -->
+                  <p class="box-contacts-link"><a href="mailto:#">vendashidrauja@gmail.com</a></p>
                 </div>
               </article>
             </div>
@@ -697,7 +717,7 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
       </section>
 
       <!-- Contact Form-->
-      <section class="section section-sm section-last bg-default text-left" id="contacts">
+      <!-- <section class="section section-sm section-last bg-default text-left" id="contacts">
         <div class="container">
           <article class="title-classic">
             <div class="title-classic-title">
@@ -737,33 +757,40 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
             <button class="button button-primary button-pipaluk" type="submit">Enviar Mensagem</button>
           </form>
         </div>
-      </section>
-
-      <!-- RD Google Map-->
-      <section class="section section-fluid">
-        <!-- Google Map-->
-        <section class="section">
-          <div class="google-map-container" data-center="6036 Richmond hwy., Alexandria, VA, 2230" data-zoom="5" data-styles="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.business&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b4d4e1&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]">
-            <div class="google-map"></div>
-            <ul class="google-map-markers">
-              <li data-location="6036 Richmond hwy., Alexandria, VA, 2230" data-description="6036 Richmond hwy., Alexandria, VA, 2230" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png"></li>
-            </ul>
-          </div>
-        </section>
-      </section>
+      </section> -->
 
       <!-- Page Footer-->
-      <footer class="section section-fluid footer-minimal context-dark">
-        <div class="bg-gray-15">
+      <footer class="section section-fluid footer-minimal context-dark footer">
+        <div>
           <div class="container-fluid">
-            <div class="footer-minimal-inset oh">
-              <ul class="footer-list-category-2">
-                <li><a href="#">UI Design</a></li>
-                <li><a href="#">Windows/Mac OS Apps</a></li>
-                <li><a href="#">Android/iOS Apps</a></li>
-                <li><a href="#">Cloud Solutions</a></li>
-                <li><a href="#">Customer Support</a></li>
-              </ul>
+            <div class="footer-minimal-inset oh footer-cont">
+              <div class="coluna">
+                <img class="logo2" src="images/Hidrau Ja 2.png" alt="logo" width="250px">
+              </div>
+             
+             <div class="coluna" >
+              <!-- <h4>Demais Contatos </h4>
+              <div class="contatos"> -->
+              <!-- <div class="c1">
+              <p>VENDAS: Hudson Andrade</p>
+              <span>
+                <i class="fa-solid fa-phone"></i>
+                (31) 99115-0828</span>
+              <p class="pc"><i class="fa-solid fa-phone"></i>
+                (31) 3511-0145</p>                    
+             </div>
+             <div class="c1"> -->
+              <!-- <p>FINANCEIRO: Filipi Augusto</p>
+              <span><i class="fa-solid fa-phone"></i> (31) 98690-5185</span>
+             
+              <p>DIRETORIA: Jascimar Caldeira</p>
+              <span><i class="fa-solid fa-phone"></i>
+                (31) 98798-5133</span> -->
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.44706412578!2d-44.11290152562754!3d-19.94769253885803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6c014753f2ddd%3A0xf3ffe756a8756a34!2sHidrau-j%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1755818911388!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+             </div>
+             </div>
             </div>
             <div class="footer-minimal-bottom-panel text-sm-left">
               <div class="row row-10 align-items-md-center">
@@ -771,18 +798,18 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
                   <div>
                     <ul class="list-inline list-inline-sm footer-social-list-2">
                       <li><a class="icon fa fa-facebook" href="#"></a></li>
-                      <li><a class="icon fa fa-twitter" href="#"></a></li>
-                      <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                      <!-- <li><a class="icon fa fa-twitter" href="#"></a></li> -->
+                      <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->
                       <li><a class="icon fa fa-instagram" href="#"></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-4 order-sm-first">
                   <!-- Rights-->
-                  <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>RatherApp</span>
+                  <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>Todos os direitos reservados. </span>
                   </p>
                 </div>
-                <div class="col-sm-6 col-md-4 text-md-right"><span>All rights reserved.</span> <span>Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a></span>
+                <div class="col-sm-6 col-md-4 text-md-right"> <span>Desenvolvido por VP Software (vyplive@gmail.com).</span>
                 </div>
               </div>
             </div>
@@ -790,53 +817,13 @@ especialista na fabricação de componentes hidráulicos. Produz conexões, flan
         </div>
       </footer>
 
-      <div class="modal fade" id="modalCta" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Contact Us</h4>
-              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-            </div>
-            <div class="modal-body">
-              <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact-modal" method="post" action="bat/rd-mailform.php">
-                <div class="row row-14 gutters-14">
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-name" type="text" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-modal-name">Seu Nome</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-email" type="email" name="email" data-constraints="@Email @Required">
-                      <label class="form-label" for="contact-modal-email">E-mail</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-phone" type="text" name="phone" data-constraints="@Numeric">
-                      <label class="form-label" for="contact-modal-phone">Telefone</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-modal-message">Mensagem</label>
-                      <textarea class="form-input textarea-lg" id="contact-modal-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <button class="button button-primary button-pipaluk" type="submit">Enviar Mensagem</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- coded by Himic-->
+    
+    <a class="btn-whatsapp" href="https://wa.me/5531991150828" href="https://wa.me/send/?phone=5531991150828&text=Olá, gostaria de um orçamento. "target="_blank">
+      <i class="fa fa-whatsapp"></i>
+</a>
   </body>
 </html>

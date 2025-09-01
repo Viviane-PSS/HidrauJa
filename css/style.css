@@ -13635,12 +13635,13 @@ html.tablet .ui-to-top {
 	text-overflow: ellipsis;
 	text-align: left;
 	font-size: 22px;
-	line-height: 46px;
+	line-height: 54px;
+	padding-bottom: 8px;
 }
 
 .rd-navbar-fixed .rd-navbar-brand img {
 	max-width: 170px;
-	max-height: 58px;
+	max-height: 68px;
 	width: auto;
 	height: auto;
 }
@@ -14907,6 +14908,7 @@ html.rd-navbar-fixed-linked .page-header {
 .swiper-container-android .swiper-slide,
 .swiper-wrapper {
 	transform: translate3d(0, 0, 0);
+	opacity: 1.0;
 }
 
 .swiper-container-multirow > .swiper-wrapper {
@@ -20229,4 +20231,119 @@ disabled look for disabled choices in the results dropdown
 
 .modal-body {
 	padding: 29px 30px 35px;
+}
+
+.quem-somos-container{
+	
+	
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
+.quem-somos-texto{
+	text-align: center;
+	margin: 20px 20px;
+}
+
+@media (min-width: 768px) {
+
+	.quem-somos-texto{
+	text-align: center;
+	margin: 20px 20px;
+	width: 70%;
+}
+}
+
+.quem-somos-1{
+	padding: 22px;
+	padding-left: 40px;
+	width: 50%;
+}
+
+.quem-somos-2{
+	padding: 22px;
+	width: 50%;
+	align-items: flex-start;
+}
+
+.f-azul{
+	color: #004aad;
+	font-size: 120px;
+	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.frase-azul{
+	color: #004aad;
+	font-size: 24px;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+	background-color: #004aad;
+}
+
+
+
+ /* Estilos padrão para ecrãs pequenos (mobile) */
+    .footer-cont {
+      display: flex;
+      flex-direction: column; /* Um item abaixo do outro em mobile */
+      width: 100%;
+    }
+
+	.logo2{
+	width: 40%;
+}
+
+    /* Estilos para ecrãs maiores (desktop) */
+    @media (min-width: 768px) {
+      .footer-cont {
+        flex-direction: row; /* Itens lado a lado em desktop */
+		justify-content: space-around;
+	padding-left: 16px;
+	padding-right: 16px;
+      }
+      .coluna {
+        width: 50%; 
+      } 
+	  .logo2{
+	width: 60%;
+}
+    }
+
+.contatos{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.pc{
+	margin-top: 0px;
+}
+
+.c1{
+	margin: 20px 20px;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;	
 }
