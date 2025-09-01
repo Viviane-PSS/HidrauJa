@@ -20271,21 +20271,32 @@ disabled look for disabled choices in the results dropdown
 
 .f-azul{
 	color: #004aad;
+	font-size: 100px;
+	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+.frase-azul{
+	color: #004aad;
+	font-size: 24px;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+
+	.f-azul{
+	color: #004aad;
 	font-size: 140px;
 	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
-
 .frase-azul{
 	color: #004aad;
 	font-size: 36px;
 	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+}
 
 .footer{
 	background-color: #004aad;
 }
-
-
 
  /* Estilos padrão para ecrãs pequenos (mobile) */
     .footer-cont {
@@ -20318,8 +20329,6 @@ disabled look for disabled choices in the results dropdown
 	display: flex;
 	justify-content: space-between;
 }
-
-
 
 .pc{
 	margin-top: 0px;
