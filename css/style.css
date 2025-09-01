@@ -20250,11 +20250,24 @@ disabled look for disabled choices in the results dropdown
 
 @media (min-width: 768px) {
 
+	.quem-somos{
+	
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+}
+
 	.quem-somos-texto{
-	text-align: center;
+	text-align: justify;
 	margin: 20px 20px;
 	width: 70%;
 }
+}
+
+.img-qs{
+	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
 .quem-somos-1{
@@ -20265,7 +20278,7 @@ disabled look for disabled choices in the results dropdown
 
 .quem-somos-2{
 	padding: 22px;
-	width: 50%;
+	width: 60%;
 	align-items: flex-start;
 }
 
@@ -20277,7 +20290,7 @@ disabled look for disabled choices in the results dropdown
 .frase-azul{
 	color: #004aad;
 	font-size: 24px;
-	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 768px) {
@@ -20290,7 +20303,7 @@ disabled look for disabled choices in the results dropdown
 .frase-azul{
 	color: #004aad;
 	font-size: 36px;
-	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 }
 
