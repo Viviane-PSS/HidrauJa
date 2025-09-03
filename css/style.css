@@ -20370,6 +20370,10 @@ disabled look for disabled choices in the results dropdown
     z-index: 1000;
 }
 
+.btn-whatsapp:visited{
+	color: #fff;
+}
+
 .fa-whatsapp {
     margin-top: 16px;	
 }
